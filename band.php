@@ -7,6 +7,7 @@ $albums = array(
     "5" => "Iowa is 5,-",
 );
 $totaal = 4.5 + 9 + 10 + 5;
+$aantalAlbums = count($albums);
 $gemiddelde = $totaal / 4;
 foreach ($albums as $value) {
     echo $value. PHP_EOL;
